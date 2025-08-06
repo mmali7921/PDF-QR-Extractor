@@ -16,3 +16,19 @@ A simple Python script to extract QR codes from PDF files and display their deco
 Install via pip:
 ```bash
 pip install -r requirements.txt
+```
+## System Dependencies (macOS)
+This project requires ZBar and Poppler utilities.
+
+Install them using Homebrew:
+```bash
+brew install zbar
+brew install poppler
+```
+##Example Usage after Installing Requirements
+Once the packages are installed, you can run the script:
+```bash
+python3 main.py path/to/yourfile.pdf
+```
+
+
